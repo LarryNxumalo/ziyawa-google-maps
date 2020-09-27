@@ -21,6 +21,7 @@
                 box-sizing: border-box;
                 padding: 0;
                 margin: 0;
+                scroll-snap-type: y mandatory;
             }
             body {
                 color: #fff;
@@ -71,6 +72,8 @@
                 position: relative;
                 border-radius: 10px;
                 z-index: 999999;
+                scroll-snap-type: y mandatory;
+                scroll-padding: 10%;
             }
             .info-window {
                 color: #343434;

@@ -55,6 +55,7 @@
         // position: relative;
         z-index: 99;
         cursor: pointer;
+        scroll-snap-align: center;
 
         &:hover {
             margin-top: 15px;
