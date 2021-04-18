@@ -14,7 +14,7 @@ Vue.component('info-card',
 Vue.use(VueGeolocation)
 Vue.use(VueGoogleMaps, {
     load: {
-        key: 'AIzaSyDn-L1uE9T2uruzwE6WB_vWA84yj2srBJw'
+        key: 'API-KEY-HERE'
     }
 });
 
